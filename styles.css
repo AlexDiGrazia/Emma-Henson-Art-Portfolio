@@ -1,0 +1,112 @@
+.max-width-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 150px;
+}
+
+nav .logo {
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+nav .links {
+  display: flex;
+  align-items: center;
+  min-width: 35%;
+}
+
+nav .links ul{
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav .links ul li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+section.banner-image {
+  width: 100%;
+  background-color: black;
+  margin-bottom: 400px;
+}
+
+.banner-image .name {
+  width: 30%;
+}
+
+.banner-image .hero-image {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.banner-image .hero-image img {
+  max-width: 60%;
+  max-height: 90%;
+  position: relative;
+  right: 0;
+}
+
+.banner-image .name {
+  color: white;
+  display: flex;
+  align-items: center;
+  animation-name: logoFadeIn;
+  animation-duration: 4s;
+}
+
+
+@keyframes logoFadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: #383838;
+  position: fixed;
+  bottom: 0;
+}
+
+footer .copyright-terms,
+footer .social-media-links {
+  color: #999087;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+footer .copyright-terms p {
+  font-size: 0.8rem;
+}
+
+
+footer .copyright-terms p a {
+  color: #999087;
+  text-decoration: none;
+}
+
+footer .social-media-links { 
+  color: rgb(250, 250, 250);
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .social-media-links i {
+  margin-left: 20px;
+  font-size: 1.4rem;
+}
+
+footer .copyright-terms p span {
+  font-size: 1rem;
+}
