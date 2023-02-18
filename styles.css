@@ -1,5 +1,5 @@
 .max-width-container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -16,7 +16,7 @@ nav .logo {
 nav .links {
   display: flex;
   align-items: center;
-  min-width: 35%;
+  min-width: 45%;
 }
 
 nav .links ul{
@@ -50,7 +50,7 @@ section.banner-image {
 }
 
 .banner-image .hero-image img {
-  max-width: 60%;
+  max-width: 70%;
   max-height: 90%;
   position: relative;
   right: 0;
