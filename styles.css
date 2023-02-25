@@ -5,7 +5,7 @@
 
 nav {
   margin-top: 20px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 
 nav .logo {
@@ -13,10 +13,14 @@ nav .logo {
   font-size: 2rem;
 }
 
+nav .logo img {
+  max-width: 125px;
+}
+
 nav .links {
   display: flex;
   align-items: center;
-  min-width: 45%;
+  min-width: 60%;
 }
 
 nav .links ul{
@@ -28,13 +32,21 @@ nav .links ul{
 
 nav .links ul li {
   list-style: none;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
+}
+
+nav .links ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Satisfy', cursive;
+  font-weight:lighter;
 }
 
 section.banner-image {
   width: 100%;
-  background-color: black;
-  margin-bottom: 400px;
+  background-color: #AAC0C6;
+  margin-bottom: 200px;
 }
 
 .banner-image .name {
